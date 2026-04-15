@@ -1,6 +1,6 @@
 ## Olá, me chamo Luiz Eduardo, desenvolvedor full stack!
 
-<div>
+<div style="display: inline_block"><br>
   <img alt="Luiz-JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img alt="Luiz-TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img alt="Luiz-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
@@ -10,11 +10,7 @@
   <img alt="Luiz-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 </div>
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=transparent">
-
-</td>
-</tr>
-</table>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leduardobastos&show_icons=true&theme=transparent)
 
 ---
 
@@ -22,7 +18,6 @@
   <a href="https://www.linkedin.com/in/leduardobastos" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a> 
-
   <a href="mailto:luiz.bastos.dev@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
