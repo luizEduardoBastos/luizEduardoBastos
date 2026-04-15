@@ -19,8 +19,9 @@
 
 
 <div> 
-  <a href="https://linkedin.com/in/leduardobastos" target="_blank">
-    "<img src="https://img.shields.io/badge/-Linkedin-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <a href="https://linkedin.com/in/seu-usuario" target="_blank" style="display: inline-block; background-color: #0077B5; padding: 8px 12px; border-radius: 5px; text-decoration: none;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" width="20" height="20" alt="LinkedIn" style="vertical-align: middle; margin-right: 6px;">
+    <span style="color: white; font-weight: bold; vertical-align: middle;">LinkedIn</span>
   </a>
   <a href="mailto:luiz.bastos.dev@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
