@@ -1,6 +1,6 @@
 ## Olá, me chamo Luiz Eduardo, desenvolvedor full stack!
 
-<div style="display:inline-block">
+<div align="left">
   <img alt="Luiz-JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img alt="Luiz-TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img alt="Luiz-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
