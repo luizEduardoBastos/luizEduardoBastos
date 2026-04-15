@@ -4,7 +4,7 @@
   <img alt="Luiz-JavaScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img alt="Luiz-TypeScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img alt="Luiz-React" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img alt="Luiz-Kotlin" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/reactnative/kotlin-original.svg">
+  <img alt="Luiz-Kotlin" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg">
   <img alt="Luiz-HTML5" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img alt="Luiz-CSS3" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img alt="Luiz-Python" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
