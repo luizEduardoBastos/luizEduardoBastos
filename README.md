@@ -1,5 +1,10 @@
 ## Olá, me chamo Luiz Eduardo, desenvolvedor full stack!
 
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="342">
+</div>
+
 <div>
   <img alt="Luiz-JavaScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img alt="Luiz-TypeScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
@@ -10,13 +15,6 @@
   <img alt="Luiz-Python" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img alt="Luiz-Java" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
   <img alt="Luiz-Csharp" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-</div>
-
-<br>
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="342">
 </div>
 
 ##
