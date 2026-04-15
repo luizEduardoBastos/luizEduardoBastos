@@ -14,7 +14,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="345">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="342">
 </div>
 
 ##
