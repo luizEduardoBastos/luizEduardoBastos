@@ -19,8 +19,8 @@
 
 
 <div> 
-  <a href="https://linkedin.com/in/seu-usuario" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGZpbGwgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMCQ0N0gyLjY1Yy0uNzEgMC0xLjMxLjU4LTEuMzEgMS4zMXYxNi4zOGMwIC43Mi41OS4zMSAxLjMxIDEuMzFIMjBjLjcxIDAgMS4zLS41OTtMS4zLTEuMzFWNC43OGMwLS43My41OS0xLjMxLTEuMy0xLjMxek02LjIzIDExLjEzYzAgLjc3LS42MiAxLjQtMS4zOCAxLjRzLTEuMzktLjYzLTEuMzktMS40YzAtLjc3LjYyLTEuMzkgMS4zOS0xLjM5czEuMzguNjIgMS4zOCAxLjM5em0xMi4xOCAwdjcuMzVoLTIuNXYtNi44NWMwLS45My0uMzMtMS41Ny0xLjE3LTEuNTctLjYzIDAtMS4wMS41OS0xLjE3Ljk4LS4wNi4xNi0uMDYuMzktLjA2LjYydjYuODJoLTIuNXYtNy4zNWgyLjV2LjY1cy42Mi0xLjU2IDIuMTQtMS41NmMyLjI5IDAgNC4wMSAxLjQ0IDQuMDEgNC41N3oiLz48L3N2Zz4=&logoColor=white" alt="LinkedIn">
+  <a href="https://linkedin.com/in/leduardobastos" target="_blank">
+    <img src="https://badgen.net/badge/LinkedIn/Connect?icon=linkedin&color=0077B5" alt="LinkedIn">
   </a>
   <a href="mailto:luiz.bastos.dev@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
