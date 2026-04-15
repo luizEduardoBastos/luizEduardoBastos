@@ -21,7 +21,7 @@
 
 <div> 
   <a href="https://linkedin.com/in/seu-usuario" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iNCIgY3k9IjQiIHI9IjIiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMiA5aDR2MTFIMnptNi0xYzEuOSAwIDMuMiAxIDMuMiAzdjd2MWgtNHYtN2MwLTEtLjQtMS41LTEuMy0xLjVzLTEuNi41LTEuNiAxLjV2N0g0di03YzAtMiAxLjMtMyAzLTN6IiBmaWxsPSIjZmZmIi8+PC9zdmc+" alt="LinkedIn">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" width="40" height="40" alt="LinkedIn">
 </a>
   <a href="mailto:luiz.bastos.dev@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
