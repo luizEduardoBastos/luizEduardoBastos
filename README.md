@@ -1,4 +1,4 @@
-## Olá, me chamo Luiz Eduardo: músico, historiador e desenvolvedor full stack!
+## ## Olá, me chamo Luiz Eduardo, sou geek, esportista e desenvolvedor full stack!
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leduardobastos&show_icons=true&theme=transparent)](https://github.com/leduardobastos/github-readme-stats)
 
