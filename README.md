@@ -17,11 +17,10 @@
   <img alt="Luiz-Csharp" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
 
-##
 
 <div> 
   <a href="https://linkedin.com/in/leduardobastos" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" width="40" height="40" alt="Linkedin">
+    "<img src="https://img.shields.io/badge/-Linkedin-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="mailto:luiz.bastos.dev@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
