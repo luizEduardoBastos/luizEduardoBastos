@@ -1,5 +1,7 @@
 ## Olá, me chamo Luiz Eduardo, desenvolvedor full stack!
 
+  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=transparent)
+  
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Luiz-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
@@ -11,8 +13,6 @@
 </div>
 
 ##
-
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=transparent)
 
 <div> 
   <a href="https://www.linkedin.com/in/leduardobastos" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
