@@ -19,8 +19,8 @@
 
 
 <div> 
-  <a href="https://linkedin.com/in/leduardobastos" target="_blank">
-    <img src="https://badgen.net/badge/LinkedIn/Connect?icon=linkedin&color=0077B5" alt="LinkedIn">
+  <a href="https://linkedin.com/in/seu-usuario" target="_blank">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" alt="LinkedIn" style="width: 30px; height: 30px; background-color: #0077B5; padding: 5px; border-radius: 5px; filter: brightness(0) invert(1);">
   </a>
   <a href="mailto:luiz.bastos.dev@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
