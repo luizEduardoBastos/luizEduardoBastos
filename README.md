@@ -12,10 +12,14 @@
   <img alt="Luiz-Csharp" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
 
+<br>
+
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="342">
 </div>
+
+##
 
 <div> 
   <a href="https://linkedin.com/in/seu-usuario" target="_blank">
