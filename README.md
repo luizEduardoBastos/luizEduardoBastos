@@ -1,4 +1,4 @@
-## Olá, me chamo Luiz Eduardo, sou geek, esportista e desenvolvedor full stack!
+## Olá, me chamo Luiz Eduardo, desenvolvedor full stack!
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
