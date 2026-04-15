@@ -1,6 +1,7 @@
 ## Olá, me chamo Luiz Eduardo, desenvolvedor full stack!
 
-<div align="left">
+<div align="left" style="display: flex; align-items: center; gap: 20px;">
+
   <div>
     <img alt="Luiz-JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img alt="Luiz-TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
@@ -10,9 +11,11 @@
     <img alt="Luiz-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
     <img alt="Luiz-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
   </div>
+
   <div>
-    ![Luiz's GitHub stats](https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=transparent)
+    <img height="160em" src="https://github-readme-stats.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=transparent">
   </div>
+
 </div>
 
 ---
