@@ -20,7 +20,10 @@
   <a href="https://www.linkedin.com/in/leduardobastos" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a> 
-  <a href="mailto:luiz.bastos.dev@gmail.com">
+  <a href="mailto:luiz.bastos.dev@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
+  <a href="https://discord.com/channels/@me/352942620106031115" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
+  </a> 
 </div>
