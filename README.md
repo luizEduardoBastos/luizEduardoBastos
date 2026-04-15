@@ -2,6 +2,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leduardobastos&show_icons=true&theme=transparent)](https://github.com/leduardobastos/github-readme-stats)
 
+<br>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Luiz-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
