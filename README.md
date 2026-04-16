@@ -22,6 +22,6 @@
 ##
 
 
-[Redes Sociais](./social-links.html)
+[![Contato](https://img.shields.io/badge/Redes%20Sociais-Clique%20Aqui-blue?style=for-the-badge)](./social-links.html)
 
 ![snake gif](https://github.com/luizEduardoBastos/luizEduardoBastos/blob/output/github-snake-dark.svg)
