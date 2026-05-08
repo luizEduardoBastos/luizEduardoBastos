@@ -1,4 +1,6 @@
-## Olá, me chamo Luiz, desenvolvedor full stack, geek e amante de música!
+## Olá, me chamo Luiz!
+
+
 
 <div>
   <img alt="Luiz-JavaScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
