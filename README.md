@@ -21,8 +21,8 @@
 -->
 
 <div align="left">
-  <img src="https://github-readme-stats-theta-seven-44.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
-  <img src="github-readme-stats-theta-seven-44.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="342">
+  <img src="https://github-stats-eta-six.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
+  <img src="https://github-stats-eta-six.vercel.app/api/top-langs/?username=luizEduardoBastos&layout=compact&theme=react&count_private=true" alt="Top Languages" width="342">
 </div>
 
 #
