@@ -16,7 +16,7 @@
 
 <br>
 
-![What Am I Listening](https://storage.googleapis.com/music-profile-aaae2.firebasestorage.app/listening-on-ytmusic.svg)
+![What Am I Listening](https://firebasestorage.googleapis.com/v0/b/music-profile-aaae2.firebasestorage.app/o/listening-on-ytmusic.svg?alt=media&token=1e98bdd7-c27d-4340-935b-a39bdf9e49ad)
 
 
 <div align="left">
