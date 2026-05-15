@@ -16,7 +16,7 @@
 
 <br>
 
-![What Am I Listening](https://storage.googleapis.com/music-profile-aaae2.firebasestorage.app/listening-on-ytmusic.svg))
+![What Am I Listening](https://storage.googleapis.com/music-profile-aaae2.firebasestorage.app/listening-on-ytmusic.svg)
 
 
 <div align="left">
