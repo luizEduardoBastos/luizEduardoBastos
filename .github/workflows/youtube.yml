@@ -17,11 +17,11 @@ jobs:
     - name: Increment SVG Version
       id: increment_version
       run: |
-        current_version=$(grep -oP '(?<=v=)\d+' README.md)
+        current_version=$(grep -oP '(?<=alt=media&v=)\d+' README.md || echo "0")
         echo "Current version: $current_version"
         new_version=$((current_version + 1))
         echo "New version: $new_version"
-        sed -i "s/v=$current_version/v=$new_version/" README.md
+        sed -i "s/alt=media&v=$current_version/alt=media\&v=$new_version/" README.md
         echo "new_version=$new_version" >> $GITHUB_OUTPUT
 
     - name: Commit Changes
