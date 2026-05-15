@@ -1,23 +1,17 @@
 ## Olá, me chamo Luiz!
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td valign="top" style="padding-right:16px;">
-      <img alt="Luiz-JavaScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-      <img alt="Luiz-TypeScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-      <img alt="Luiz-React" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-      <img alt="Luiz-Kotlin" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg">
-      <img alt="Luiz-HTML5" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-      <img alt="Luiz-CSS3" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-      <img alt="Luiz-Python" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-      <img alt="Luiz-Java" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-      <img alt="Luiz-Csharp" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-    </td>
-    <td valign="top">
-      <img src="https://firebasestorage.googleapis.com/v0/b/music-profile-aaae2.firebasestorage.app/o/listening-on-ytmusic.svg?alt=media&token=1e98bdd7-c27d-4340-935b-a39bdf9e49ad" alt="What Am I Listening">
-    </td>
-  </tr>
-</table>
+<div>
+  <img alt="Luiz-JavaScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img alt="Luiz-TypeScript" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img alt="Luiz-React" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img alt="Luiz-Kotlin" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg">
+  <img alt="Luiz-HTML5" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img alt="Luiz-CSS3" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img alt="Luiz-Python" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img alt="Luiz-Java" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+  <img alt="Luiz-Csharp" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+  <img src="https://firebasestorage.googleapis.com/v0/b/music-profile-aaae2.firebasestorage.app/o/listening-on-ytmusic.svg?alt=media&token=1e98bdd7-c27d-4340-935b-a39bdf9e49ad" alt="What Am I Listening" height="78">
+</div>
 
 <div align="left">
   <img src="https://github-stats-eta-six.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
