@@ -12,7 +12,7 @@
   <img alt="Luiz-Csharp" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
 
-<img src="https://storage.googleapis.com/music-profile-aaae2.firebasestorage.app/listening-on-ytmusic.svg" alt="What Am I Listening">
+![What Am I Listening](https://firebasestorage.googleapis.com/v0/b/music-profile-aaae2.firebasestorage.app/o/listening-on-ytmusic.svg?alt=media)
 
 <div align="left">
   <img src="https://github-stats-eta-six.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
