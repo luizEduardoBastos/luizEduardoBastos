@@ -6,14 +6,12 @@ on:
   schedule:
     - cron: '*/2 * * * *'  # Runs every 2 minutes
   workflow_dispatch:
-
 jobs:
   update-version:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
-
+      uses: actions/checkout@v4
     - name: Increment SVG Version
       id: increment_version
       run: |
@@ -23,16 +21,14 @@ jobs:
         echo "New version: $new_version"
         sed -i "s/alt=media&v=$current_version/alt=media\&v=$new_version/" README.md
         echo "new_version=$new_version" >> $GITHUB_OUTPUT
-
     - name: Commit Changes
       run: |
         git config --local user.email "luiz.bastos.dev@gmail.com"
         git config --local user.name "luizEduardoBastos"
         git add README.md
         git commit -m "Increment SVG version to v${{ steps.increment_version.outputs.new_version }}"
-
     - name: Push Changes
-      uses: ad-m/github-push-action@v0.6.0
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.READMESECRET }}
         branch: main
