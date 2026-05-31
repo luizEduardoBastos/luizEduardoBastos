@@ -4,9 +4,11 @@ Executado pelo GitHub Actions periodicamente via cron.
 """
 
 import base64
+import json
 import os
 import re
 import sys
+import tempfile
 from io import BytesIO
 from threading import Lock
 
@@ -28,20 +30,46 @@ load_dotenv()
 upload_lock = Lock()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Autenticação do YouTube Music.
-# Em produção (GitHub Actions) o conteúdo do header vem de uma secret
-# gravada num arquivo temporário pelo workflow (veja youtube.yml).
-YTMUSIC_BROWSER = os.getenv("YTMUSIC_BROWSER")          # caminho para o arquivo JSON
-ytmusic = YTMusic(YTMUSIC_BROWSER)
 
-# Firebase
-FIREBASE_CREDENTIALS = os.getenv("FIREBASE_CREDENTIALS")   # caminho para o JSON da service account
-FIREBASE_BUCKET       = os.getenv("FIREBASE_BUCKET")        # ex: meu-projeto.appspot.com
+def _write_temp_json(env_var: str) -> str:
+    """
+    Lê o conteúdo JSON de uma variável de ambiente e grava em arquivo temporário.
+    Necessário porque YTMusic e firebase_admin esperam um caminho de arquivo.
+    """
+    raw = os.getenv(env_var, "").strip()
+    if not raw:
+        raise EnvironmentError(
+            f"A variável de ambiente '{env_var}' está vazia ou não foi definida."
+        )
+    # Valida se é JSON válido antes de gravar
+    try:
+        json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise EnvironmentError(f"Conteúdo de '{env_var}' não é JSON válido: {e}")
 
-cred = credentials.Certificate(FIREBASE_CREDENTIALS)
+    tmp = tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False)
+    tmp.write(raw)
+    tmp.flush()
+    tmp.close()
+    return tmp.name
+
+
+# YTMUSIC_BROWSER_JSON  → JSON inline (secret do GitHub)
+# FIREBASE_CREDENTIALS  → JSON inline (secret do GitHub)
+# FIREBASE_BUCKET       → string simples
+FIREBASE_BUCKET = os.getenv("FIREBASE_BUCKET", "").strip()
+if not FIREBASE_BUCKET:
+    raise EnvironmentError("A variável 'FIREBASE_BUCKET' está vazia ou não foi definida.")
+
+ytmusic_path  = _write_temp_json("YTMUSIC_BROWSER_JSON")
+firebase_path = _write_temp_json("FIREBASE_CREDENTIALS")
+
+ytmusic = YTMusic(ytmusic_path)
+
+cred = credentials.Certificate(firebase_path)
 firebase_admin.initialize_app(cred, {"storageBucket": FIREBASE_BUCKET})
 
-# Temas disponíveis (adicione mais conforme necessário)
+# Temas disponíveis
 THEMES = [
     {
         "name"         : "Theme_Card_HTML",
@@ -54,16 +82,11 @@ THEMES = [
     },
 ]
 
-# Arquivo de estado simples para evitar re-uploads desnecessários.
-# No GitHub Actions o workspace é recriado a cada run, então esse arquivo
-# não persiste entre execuções — isso é intencional: sempre processamos a
-# música mais recente, mas o check abaixo ainda evita uploads duplos
-# dentro da mesma execução (caso o script seja chamado mais de uma vez).
 STATE_FILE = os.path.join(BASE_DIR, ".last_video_id")
 
 
 # ---------------------------------------------------------------------------
-# Estado entre runs (opcional — útil para testes locais)
+# Estado entre runs
 # ---------------------------------------------------------------------------
 
 def read_last_video_id() -> str | None:
@@ -213,11 +236,10 @@ def main() -> None:
         print(f"✅ Mesma música já processada ({recent_song_vid_id}). Nada a fazer.")
         sys.exit(0)
 
-    # Dados da música
-    recent_song        = ytmusic.get_song(recent_song_vid_id)
-    song_title         = recent_songs[0]["title"]
-    artist_name        = recent_song["videoDetails"]["author"]
-    thumb_url          = recent_song["videoDetails"]["thumbnail"]["thumbnails"][-1]["url"]
+    recent_song  = ytmusic.get_song(recent_song_vid_id)
+    song_title   = recent_songs[0]["title"]
+    artist_name  = recent_song["videoDetails"]["author"]
+    thumb_url    = recent_song["videoDetails"]["thumbnail"]["thumbnails"][-1]["url"]
 
     print(f"🎧 Música  : {song_title}")
     print(f"👤 Artista : {artist_name}")
