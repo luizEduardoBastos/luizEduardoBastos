@@ -1,0 +1,6 @@
+colorthief
+firebase-admin
+Pillow
+python-dotenv
+requests
+ytmusicapi
