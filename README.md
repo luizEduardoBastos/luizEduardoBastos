@@ -14,7 +14,7 @@
 
 <br>
 
-![What Am I Listening](https://firebasestorage.googleapis.com/v0/b/music-profile-aaae2.firebasestorage.app/o/listening-on-ytmusic.svg?alt=media&v=1422)
+![What Am I Listening](https://firebasestorage.googleapis.com/v0/b/music-profile-aaae2.firebasestorage.app/o/listening-on-ytmusic.svg?alt=media&v=1423)
 
 <div align="left">
   <img src="https://github-stats-eta-six.vercel.app/api?username=luizEduardoBastos&show_icons=true&theme=react&count_private=true" alt="GitHub Stats" width="450">
