@@ -1,0 +1,17 @@
+.env
+browser.json
+firebase-credentials.json
+*.pem
+*.key
+
+# Ambiente Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos do sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
